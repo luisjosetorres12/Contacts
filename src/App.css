@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+
+.Home {
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Elements {
+
+  width: 50%;
+  height: 50px;
+  padding-top: 4px;
+  cursor: pointer;
+  margin: 3vh;
+  border-radius: 5px;
+}
+
+.Home-Elements__Text {
+  margin-top: 2vh;
+}
+
+.Home-Elements__Text a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.Register-Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Register-Form input {
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 12px;
+}
+
+.Register-Form input:focus {
+  outline-color: orange;
+}
+
+.Register-Form__btn {
+  padding: 8px;
+  border: 0.4px solid gray;
+  border-radius: 5px;
+  background-color: rgb(71, 165, 71);
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.List-Table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.List-Table th,
+.List-Table td {
+    padding: 12px 15px;
+}
+
+.List-Table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.List-Table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.List-Table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.List-Button__Delete {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.List-Button__Edit {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  cursor: pointer;
+  margin-left: 2px;
+}
